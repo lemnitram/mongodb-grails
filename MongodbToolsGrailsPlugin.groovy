@@ -8,7 +8,7 @@ import com.mongodb.ObjectId
 
 class MongodbToolsGrailsPlugin
 {
-	def version = "0.1"
+	def version = "0.1x"
 	def grailsVersion = "1.2.0 > *"
 	def dependsOn = [:]
 	def pluginExcludes = [
