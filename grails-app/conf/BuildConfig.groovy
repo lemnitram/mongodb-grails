@@ -3,12 +3,6 @@ grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir	= "target/test-reports"
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
-grails.project.dependency.distribution = {
-    remoteRepository(id:'artifactory', url:'http://xxx.xxx.xxx.xxx:8081/artifactory/libs-releases-local') {
-        authentication username:"xxxxxxxx", password:"xxxxxxx"
-    }
-}
-
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
     inherits( "global" ) {
@@ -23,7 +17,7 @@ grails.project.dependency.resolution = {
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
-         runtime 'org.mongodb:mongo-java-driver:1.4'
+         runtime 'org.mongodb:mongo-java-driver:2.0'
     }
 
 }

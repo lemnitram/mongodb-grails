@@ -26,6 +26,7 @@ import org.codehaus.groovy.grails.commons.GrailsClassUtils
 import org.springframework.beans.factory.InitializingBean
 import org.springframework.web.multipart.commons.CommonsMultipartFile
 import com.mongodb.*
+import org.bson.types.*
 
 /**
  * <p>The MongoDbWrapper is exposed to Grails applications as a Spring bean called 'mongo'.

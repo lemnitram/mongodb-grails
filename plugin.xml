@@ -1,4 +1,4 @@
-<plugin name='mongodb-tools' version='0.1x' grailsVersion='1.2.0 &gt; *'>
+<plugin name='mongodb-tools' version='0.1y' grailsVersion='1.2.0 &gt; *'>
   <author>Mark Priatel</author>
   <authorEmail>mpriatel@gmail.com</authorEmail>
   <title>MongoDB Tools</title>

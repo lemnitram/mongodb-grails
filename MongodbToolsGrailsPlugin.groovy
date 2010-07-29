@@ -4,7 +4,7 @@ import com.iolog.mongodbtools.MongoMapperModel
 import com.mongodb.BasicDBObject
 import com.iolog.mongodbtools.MongoDbWrapper
 import com.iolog.mongodbtools.MongoMapperField
-import com.mongodb.ObjectId
+import org.bson.types.ObjectId
 
 class MongodbToolsGrailsPlugin
 {
